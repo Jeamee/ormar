@@ -1,5 +1,18 @@
 [project]
 name = "ormar"
+version = "0.20.1"
+description = "An async ORM with fastapi in mind and pydantic validation."
+authors = [
+    {name = "Radosław Drążkiewicz", email = "collerek@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "^3.8.0"
+dependencies = [
+    "databases>=0.7.0",
+    "pydantic>=2.5.3",
+    "SQLAlchemy>=1.4.42",
+]
 
 [tool.poetry]
 name = "ormar"
