@@ -7,7 +7,7 @@ authors = [
 ]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = "^3.8.0"
+requires-python = ">=3.8.0"
 dependencies = [
     "databases>=0.7.0",
     "pydantic>=2.5.3",
